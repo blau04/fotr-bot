@@ -1,0 +1,13 @@
+{
+  "name": "fotr-bot",
+  "version": "1.0.0",
+  "description": "Friends on the Run — Instagram DM Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
