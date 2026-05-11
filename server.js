@@ -312,6 +312,51 @@ app.get("/", (req, res) => {
 });
 
 // ============================================================
+// PRIVACY POLICY
+// ============================================================
+app.get("/privacy", (req, res) => {
+  res.send(`
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Privacy Policy — Friends on the Run</title>
+      <style>
+        body { font-family: sans-serif; max-width: 700px; margin: 60px auto; padding: 0 24px; color: #222; line-height: 1.7; }
+        h1 { font-size: 26px; margin-bottom: 4px; }
+        h2 { font-size: 16px; margin-top: 32px; }
+        p { font-size: 14px; color: #444; }
+        .updated { font-size: 12px; color: #999; margin-bottom: 32px; }
+      </style>
+    </head>
+    <body>
+      <h1>Privacy Policy</h1>
+      <div class="updated">Last updated: May 2026</div>
+
+      <h2>1. Who we are</h2>
+      <p>Friends on the Run ("FOTR") is a free community run club based in Panama City, Panama. This privacy policy applies to our Instagram automated messaging bot.</p>
+
+      <h2>2. What data we collect</h2>
+      <p>When you send a direct message to our Instagram account (@friendsontherun), our automated bot receives and processes your message text and your Instagram user ID in order to respond to your inquiry. We do not store this information permanently.</p>
+
+      <h2>3. How we use your data</h2>
+      <p>Your message is sent to an AI service (Anthropic Claude) solely to generate a relevant response about our run club. We do not sell, share, or use your data for any other purpose.</p>
+
+      <h2>4. Data retention</h2>
+      <p>Message content is held temporarily in memory only for the duration of the conversation and is not stored in any database.</p>
+
+      <h2>5. Your rights</h2>
+      <p>You may stop interacting with the bot at any time. If you have questions about your data, contact us at somos@frenesontherun.com.</p>
+
+      <h2>6. Contact</h2>
+      <p>Friends on the Run<br>Panama City, Panama<br>somos@frenesontherun.com<br>Instagram: @friendsontherun</p>
+    </body>
+    </html>
+  `);
+});
+
+// ============================================================
 // START SERVER
 // ============================================================
 const PORT = process.env.PORT || 3000;
