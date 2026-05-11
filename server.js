@@ -17,7 +17,7 @@ const CONFIG = {
 // FRIENDS ON THE RUN — Knowledge Base
 // ============================================================
 const KNOWLEDGE = `
-Eres el asistente virtual de "Friends on the Run" (FOTR), un run club en Panamá.
+Eres el asistente virtual de "Friends on the Run" (FTR), un run club en Panamá.
 Responde SIEMPRE en el idioma en que te escriben — español por defecto, inglés si te escriben en inglés.
 Sé amigable, energético y conciso (máximo 3-4 oraciones por respuesta). Usa 1 emoji máximo.
 
@@ -321,7 +321,7 @@ app.get("/privacy", (req, res) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Privacy Policy — Friends on the Run</title>
+      <title>Privacy Policy — Frenes on the Run</title>
       <style>
         body { font-family: sans-serif; max-width: 700px; margin: 60px auto; padding: 0 24px; color: #222; line-height: 1.7; }
         h1 { font-size: 26px; margin-bottom: 4px; }
@@ -335,10 +335,10 @@ app.get("/privacy", (req, res) => {
       <div class="updated">Last updated: May 2026</div>
 
       <h2>1. Who we are</h2>
-      <p>Friends on the Run ("FOTR") is a free community run club based in Panama City, Panama. This privacy policy applies to our Instagram automated messaging bot.</p>
+      <p>Frenes on the Run ("FTR") is a free community run club based in Panama City, Panama. This privacy policy applies to our Instagram automated messaging bot.</p>
 
       <h2>2. What data we collect</h2>
-      <p>When you send a direct message to our Instagram account (@friendsontherun), our automated bot receives and processes your message text and your Instagram user ID in order to respond to your inquiry. We do not store this information permanently.</p>
+      <p>When you send a direct message to our Instagram account (@Frenesontherun), our automated bot receives and processes your message text and your Instagram user ID in order to respond to your inquiry. We do not store this information permanently.</p>
 
       <h2>3. How we use your data</h2>
       <p>Your message is sent to an AI service (Anthropic Claude) solely to generate a relevant response about our run club. We do not sell, share, or use your data for any other purpose.</p>
@@ -350,7 +350,7 @@ app.get("/privacy", (req, res) => {
       <p>You may stop interacting with the bot at any time. If you have questions about your data, contact us at somos@frenesontherun.com.</p>
 
       <h2>6. Contact</h2>
-      <p>Friends on the Run<br>Panama City, Panama<br>somos@frenesontherun.com<br>Instagram: @friendsontherun</p>
+      <p>Frenes on the Run (FTR)<br>Panama City, Panama<br>somos@frenesontherun.com<br>Instagram: @Frenesontherun</p>
     </body>
     </html>
   `);
